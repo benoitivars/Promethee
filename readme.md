@@ -16,7 +16,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-## Prométhée - Version 0.1 - FRENCH VERSION (ENGLISH BELOW)
+## Prométhée - Version 0.101 - FRENCH VERSION (ENGLISH BELOW)
 
 ### Présentation
 
@@ -73,6 +73,11 @@ Après avoir généré votre projet, vous devez effectuer quelques configuration
 - Si vous utilisez VSCode et utilisez l'extension `Live server`, `http://127.0.0.1:5500/` ne vous affichera qu'une arborescence du projet. Préférez passer par l'adresse suivante :`http://127.0.0.1:3000/`
 - Les fichiers JavaScript dédiés à la manipulation du DOM ne sont pas automatiquement connectés aux fichiers EJS correspondants. Pour créer ce lien, il suffit d'ajouter la balise <script> dans votre fichier EJS. Vous la placez dans la section <head>, comme ceci : `<script src="/chemin/vers/votre/script.js"></script>`. 
 
+### Version actuelle (0.101)
+
+- Fichiers et scripts de base
+- Version billingue français-anglais du read me
+
 ### Prochaine Étape (Version 0.2)
 
 - Intégration de l'authentification avec les tokens JWT.
@@ -86,6 +91,7 @@ Après avoir généré votre projet, vous devez effectuer quelques configuration
 - Interface graphique
 
 ### Contribution
+
 Les contributions au projet sont les bienvenues. Veuillez suivre les conventions de codage établies et soumettre des pull requests pour toute modification ou amélioration.
 
 Pour tout contact, question ou remarque, vous pouvez me contacter sur mon profil GitHub : https://github.com/benoitivars
@@ -95,7 +101,7 @@ Prométhée {:fire:} - Le feu sacré du développement web.
 
 
 
-## Prométhée - Version 0.1 - ENGLISH VERSION
+## Prométhée - Version 0.101 - ENGLISH VERSION
 
 ### Overview
 
@@ -151,6 +157,11 @@ After generating your project, you will need to perform some manual configuratio
 - To launch your project locally, go to your project folder and run `nodemon server.js`.
 - If you are using VSCode and the `Live server` extension, `http://127.0.0.1:5500/` will only display a project tree. Prefer using the following address: `http://127.0.0.1:3000/`.
 - JavaScript files dedicated to DOM manipulation are not automatically connected to the corresponding EJS files. To create this link, simply add the <script> tag in your EJS file. Place it in the <head> section, like this: `<script src="/path/to/your/script.js"></script>`.
+
+### Current Version (0.101)
+
+- Basic files and scripts
+- Bilingual French-English version of the readme
 
 ### Next Steps (Version 0.2)
 
